@@ -9,7 +9,17 @@ git clone <repo-url>
 ```
 
 ```bash
+
 pip install -r requirements.txt
+#i started from here:
+apt install python3-flask
+
+#or if you are using a virtual environment,
+python3 -m venv ./venv
+source ./venv/bin/activate
+pip install flask
+pip install flask-login
+pip install flask-sqlalchemy 
 ```
 
 ## Running The App
